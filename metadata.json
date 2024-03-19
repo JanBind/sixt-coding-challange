@@ -1,0 +1,155 @@
+[
+    {
+      "Variable": "instant",
+      "Role": "ID",
+      "Type": "Integer",
+      "Demographic": "",
+      "Description": "record index",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "dteday",
+      "Role": "Feature",
+      "Type": "Date",
+      "Demographic": "",
+      "Description": "date",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "season",
+      "Role": "Feature",
+      "Type": "Categorical",
+      "Demographic": "",
+      "Description": "1:winter, 2:spring, 3:summer, 4:fall",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "yr",
+      "Role": "Feature",
+      "Type": "Categorical",
+      "Demographic": "",
+      "Description": "year (0: 2011, 1: 2012)",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "mnth",
+      "Role": "Feature",
+      "Type": "Categorical",
+      "Demographic": "",
+      "Description": "month (1 to 12)",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "hr",
+      "Role": "Feature",
+      "Type": "Categorical",
+      "Demographic": "",
+      "Description": "hour (0 to 23)",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "holiday",
+      "Role": "Feature",
+      "Type": "Binary",
+      "Demographic": "",
+      "Description": "weather day is holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "weekday",
+      "Role": "Feature",
+      "Type": "Categorical",
+      "Demographic": "",
+      "Description": "day of the week",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "workingday",
+      "Role": "Feature",
+      "Type": "Binary",
+      "Demographic": "",
+      "Description": "if day is neither weekend nor holiday is 1, otherwise is 0",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "weathersit",
+      "Role": "Feature",
+      "Type": "Categorical",
+      "Demographic": "",
+      "Description": "- 1: Clear, Few clouds, Partly cloudy, Partly cloudy",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "temp",
+      "Role": "Feature",
+      "Type": "Continuous",
+      "Demographic": "",
+      "Description": "Normalized temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-8, t_max=+39 (only in hourly scale)",
+      "Units": "C",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "atemp",
+      "Role": "Feature",
+      "Type": "Continuous",
+      "Demographic": "",
+      "Description": "Normalized feeling temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-16, t_max=+50 (only in hourly scale)",
+      "Units": "C",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "hum",
+      "Role": "Feature",
+      "Type": "Continuous",
+      "Demographic": "",
+      "Description": "Normalized humidity. The values are divided to 100 (max)",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "windspeed",
+      "Role": "Feature",
+      "Type": "Continuous",
+      "Demographic": "",
+      "Description": "Normalized wind speed. The values are divided to 67 (max)",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "casual",
+      "Role": "Other",
+      "Type": "Integer",
+      "Demographic": "",
+      "Description": "count of casual users",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "registered",
+      "Role": "Other",
+      "Type": "Integer",
+      "Demographic": "",
+      "Description": "count of registered users",
+      "Units": "",
+      "Missing Values": "no"
+    },
+    {
+      "Variable": "cnt",
+      "Role": "Target",
+      "Type": "Integer",
+      "Demographic": "",
+      "Description": "count of total rental bikes including both casual and registered",
+      "Units": "",
+      "Missing Values": "no"
+    }
+]
